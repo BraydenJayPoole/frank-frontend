@@ -1,0 +1,16 @@
+/* References: 5.2. Coding Standards & Best Practices (CSS) */
+
+/* Injects Tailwind's base styles, component classes, and utility classes
+  into our application.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles can be defined here, but should be used sparingly.
+  Prefer utility classes whenever possible.
+*/
+body {
+  /* This ensures our UI font is applied correctly */
+  font-family: 'Inter', sans-serif;
+}
